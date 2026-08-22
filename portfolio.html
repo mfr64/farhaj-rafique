@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Farhaj Rafique | Front-End Web Developer &amp; WordPress Specialist</title>
+<meta name="description" content="Browse WordPress websites, Shopify stores, landing pages, and local SEO work by Farhaj Rafique.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>(function(){try{var t=localStorage.getItem('site-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+</head>
+<body data-page="portfolio">
+
+<!-- Ambient background layer -->
+<div class="ambient" aria-hidden="true">
+  <div class="blob blob-orange"></div>
+  <div class="blob blob-blue"></div>
+  <div class="blob blob-orange-soft"></div>
+  <div class="grain"></div>
+</div>
+
+<!-- ===================== NAV ===================== -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><span class="js-logo-initials">FR</span><span class="dot">.</span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="portfolio.html" class="nav-link active">Portfolio</a>
+      <a href="awards.html" class="nav-link">Awards</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn-outline nav-cta">Let's Talk</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+<!-- ===================== PAGE HERO ===================== -->
+<section class="page-hero" data-reveal="up">
+  <div class="container">
+    <p class="section-eyebrow">Portfolio</p>
+    <h1 class="page-title" id="pageHeroTitle">Work I've shipped for real clients</h1>
+    <p class="page-sub" id="pageHeroSub">A look at WordPress builds, Shopify stores, custom landing pages, and local SEO work. Every thumbnail below is a placeholder — real project screenshots go live here through the Admin Panel.</p>
+  </div>
+</section>
+
+<!-- ===================== FILTER TABS ===================== -->
+<section class="portfolio-filter" data-reveal="up">
+  <div class="container">
+    <div class="filter-tabs" id="filterTabs" role="tablist" aria-label="Filter projects by category">
+      <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Work</button>
+      <button class="filter-btn" data-filter="wordpress" role="tab" aria-selected="false">WordPress Websites</button>
+      <button class="filter-btn" data-filter="shopify" role="tab" aria-selected="false">Shopify Stores</button>
+      <button class="filter-btn" data-filter="landing" role="tab" aria-selected="false">Landing Pages &amp; Customizations</button>
+      <button class="filter-btn" data-filter="seo" role="tab" aria-selected="false">Local SEO</button>
+      <span class="filter-glide" id="filterGlide" aria-hidden="true"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROJECT GRID ===================== -->
+<section class="portfolio-grid-section">
+  <div class="container">
+    <div class="portfolio-grid" id="portfolioGrid">
+
+      <!-- WordPress -->
+      <article class="project-card" data-category="wordpress" data-reveal="up"
+        data-title="Guelph Carpet Cleaning" data-desc="Full WordPress rebuild with a fast quote-request flow for a local service business."
+        data-tag="WordPress Website" style="--tint-a:var(--accent-a);--tint-b:var(--accent-b);">
+        <button class="card-open" aria-label="View Guelph Carpet Cleaning project">
+          <div class="project-thumb">
+            <span class="thumb-icon">
+              <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="13" stroke="currentColor" stroke-width="2"/><path d="M6 13.5h20M16 3a20 20 0 010 26M16 3a20 20 0 000 26M9 24l3-9.5L16 24l4-9.5 3 9.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="project-tag">WordPress</span>
+          </div>
+          <div class="project-meta">
+            <h3>Guelph Carpet Cleaning</h3>
+            <p>Full WordPress rebuild with a fast quote-request flow for a local service business.</p>
+          </div>
+        </button>
+      </article>
+
+      <article class="project-card" data-category="wordpress" data-reveal="up" data-reveal-delay="80"
+        data-title="FT Autohaus" data-desc="Inventory-driven dealer website with custom vehicle listing templates built on WordPress."
+        data-tag="WordPress Website" style="--tint-a:var(--accent-b);--tint-b:var(--accent-a);">
+        <button class="card-open" aria-label="View FT Autohaus project">
+          <div class="project-thumb">
+            <span class="thumb-icon">
+              <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="13" stroke="currentColor" stroke-width="2"/><path d="M6 13.5h20M16 3a20 20 0 010 26M16 3a20 20 0 000 26M9 24l3-9.5L16 24l4-9.5 3 9.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="project-tag">WordPress</span>
+          </div>
+          <div class="project-meta">
+            <h3>FT Autohaus</h3>
+            <p>Inventory-driven dealer website with custom vehicle listing templates built on WordPress.</p>
+          </div>
+        </button>
+      </article>
+
+      <article class="project-card" data-category="wordpress" data-reveal="up" data-reveal-delay="160"
+        data-title="ProficientDigitizing" data-desc="Corporate WordPress site with a custom quote-upload portal for embroidery digitizing orders."
+        data-tag="WordPress Website" style="--tint-a:var(--accent-a);--tint-b:var(--accent-b);">
+        <button class="card-open" aria-label="View ProficientDigitizing project">
+          <div class="project-thumb">
+            <span class="thumb-icon">
+              <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="13" stroke="currentColor" stroke-width="2"/><path d="M6 13.5h20M16 3a20 20 0 010 26M16 3a20 20 0 000 26M9 24l3-9.5L16 24l4-9.5 3 9.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="project-tag">WordPress</span>
+          </div>
+          <div class="project-meta">
+            <h3>ProficientDigitizing</h3>
+            <p>Corporate WordPress site with a custom quote-upload portal for embroidery digitizing orders.</p>
+          </div>
+        </button>
+      </article>
+
+      <!-- Shopify -->
+      <article class="project-card" data-category="shopify" data-reveal="up"
+        data-title="King Cars" data-desc="Shopify storefront for an auto marketplace with filterable inventory and fast checkout."
+        data-tag="Shopify Store" style="--tint-a:var(--accent-b);--tint-b:var(--accent-a);">
+        <button class="card-open" aria-label="View King Cars project">
+          <div class="project-thumb">
+            <span class="thumb-icon">
+              <svg viewBox="0 0 32 32" fill="none"><path d="M8 11l1.5-4h13l1.5 4" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M6.5 11h19l-1.5 15H8L6.5 11z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 14.5v3a4 4 0 008 0v-3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </span>
+            <span class="project-tag">Shopify</span>
+          </div>
+          <div class="project-meta">
+            <h3>King Cars</h3>
+            <p>Shopify storefront for an auto marketplace with filterable inventory and fast checkout.</p>
+          </div>
+        </button>
+      </article>
+
+      <article class="project-card" data-category="shopify" data-reveal="up" data-reveal-delay="80"
+        data-title="Pink Slip Express" data-desc="Streamlined Shopify checkout and product pages built to reduce cart abandonment."
+        data-tag="Shopify Store" style="--tint-a:var(--accent-a);--tint-b:var(--accent-b);">
+        <button class="card-open" aria-label="View Pink Slip Express project">
+          <div class="project-thumb">
+            <span class="thumb-icon">
+              <svg viewBox="0 0 32 32" fill="none"><path d="M8 11l1.5-4h13l1.5 4" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M6.5 11h19l-1.5 15H8L6.5 11z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 14.5v3a4 4 0 008 0v-3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </span>
+            <span class="project-tag">Shopify</span>
+          </div>
+          <div class="project-meta">
+            <h3>Pink Slip Express</h3>
+            <p>Streamlined Shopify checkout and product pages built to reduce cart abandonment.</p>
+          </div>
+        </button>
+      </article>
+
+      <article class="project-card" data-category="shopify" data-reveal="up" data-reveal-delay="160"
+        data-title="DST Digitizing" data-desc="Custom Shopify product catalog for a digitizing services brand with tiered pricing options."
+        data-tag="Shopify Store" style="--tint-a:var(--accent-b);--tint-b:var(--accent-a);">
+        <button class="card-open" aria-label="View DST Digitizing project">
+          <div class="project-thumb">
+            <span class="thumb-icon">
+              <svg viewBox="0 0 32 32" fill="none"><path d="M8 11l1.5-4h13l1.5 4" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M6.5 11h19l-1.5 15H8L6.5 11z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 14.5v3a4 4 0 008 0v-3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </span>
+            <span class="project-tag">Shopify</span>
+          </div>
+          <div class="project-meta">
+            <h3>DST Digitizing</h3>
+            <p>Custom Shopify product catalog for a digitizing services brand with tiered pricing options.</p>
+          </div>
+        </button>
+      </article>
+
+      <!-- Landing Pages & Customizations -->
+      <article class="project-card" data-category="landing" data-reveal="up"
+        data-title="SaaS Product Launch Page" data-desc="High-conversion single page built to support a paid ad campaign for a software launch."
+        data-tag="Landing Page" style="--tint-a:var(--accent-a);--tint-b:var(--accent-b);">
+        <button class="card-open" aria-label="View SaaS Product Launch Page project">
+          <div class="project-thumb">
+            <span class="thumb-icon">
+              <svg viewBox="0 0 32 32" fill="none"><path d="M16 4l3 7 7 1-5 5 1.5 7L16 21l-6.5 3L11 17 6 12l7-1 3-7z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="project-tag">Landing Page</span>
+          </div>
+          <div class="project-meta">
+            <h3>SaaS Product Launch Page</h3>
+            <p>High-conversion single page built to support a paid ad campaign for a software launch.</p>
+          </div>
+        </button>
+      </article>
+
+      <article class="project-card" data-category="landing" data-reveal="up" data-reveal-delay="80"
+        data-title="Real Estate Listing Microsite" data-desc="Custom single-property listing page with a gallery and inquiry form for a realtor client."
+        data-tag="Customization" style="--tint-a:var(--accent-b);--tint-b:var(--accent-a);">
+        <button class="card-open" aria-label="View Real Estate Listing Microsite project">
+          <div class="project-thumb">
+            <span class="thumb-icon">
+              <svg viewBox="0 0 32 32" fill="none"><path d="M16 4l3 7 7 1-5 5 1.5 7L16 21l-6.5 3L11 17 6 12l7-1 3-7z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="project-tag">Customization</span>
+          </div>
+          <div class="project-meta">
+            <h3>Real Estate Listing Microsite</h3>
+            <p>Custom single-property listing page with a gallery and inquiry form for a realtor client.</p>
+          </div>
+        </button>
+      </article>
+
+      <article class="project-card" data-category="landing" data-reveal="up" data-reveal-delay="160"
+        data-title="Event RSVP Microsite" data-desc="Lightweight event page with live RSVP counter and calendar integration, built for speed."
+        data-tag="Landing Page" style="--tint-a:var(--accent-a);--tint-b:var(--accent-b);">
+        <button class="card-open" aria-label="View Event RSVP Microsite project">
+          <div class="project-thumb">
+            <span class="thumb-icon">
+              <svg viewBox="0 0 32 32" fill="none"><path d="M16 4l3 7 7 1-5 5 1.5 7L16 21l-6.5 3L11 17 6 12l7-1 3-7z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="project-tag">Landing Page</span>
+          </div>
+          <div class="project-meta">
+            <h3>Event RSVP Microsite</h3>
+            <p>Lightweight event page with live RSVP counter and calendar integration, built for speed.</p>
+          </div>
+        </button>
+      </article>
+
+      <!-- Local SEO -->
+      <article class="project-card" data-category="seo" data-reveal="up"
+        data-title="Guelph Carpet Cleaning — Local SEO" data-desc="On-page and technical SEO overhaul that moved the business into Google's local map pack."
+        data-tag="Local SEO" style="--tint-a:var(--accent-b);--tint-b:var(--accent-a);">
+        <button class="card-open" aria-label="View Guelph Carpet Cleaning Local SEO project">
+          <div class="project-thumb">
+            <span class="thumb-icon">
+              <svg viewBox="0 0 32 32" fill="none"><path d="M16 4c-5 0-9 3.8-9 9 0 6.5 9 15 9 15s9-8.5 9-15c0-5.2-4-9-9-9z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="16" cy="13" r="3.4" stroke="currentColor" stroke-width="1.7"/></svg>
+            </span>
+            <span class="project-tag">Local SEO</span>
+          </div>
+          <div class="project-meta">
+            <h3>Guelph Carpet Cleaning — Local SEO</h3>
+            <p>On-page and technical SEO overhaul that moved the business into Google's local map pack.</p>
+          </div>
+        </button>
+      </article>
+
+      <article class="project-card" data-category="seo" data-reveal="up" data-reveal-delay="80"
+        data-title="King Cars — Local Search Growth" data-desc="Keyword and schema optimization that grew organic traffic for regional vehicle searches."
+        data-tag="Local SEO" style="--tint-a:var(--accent-a);--tint-b:var(--accent-b);">
+        <button class="card-open" aria-label="View King Cars Local Search Growth project">
+          <div class="project-thumb">
+            <span class="thumb-icon">
+              <svg viewBox="0 0 32 32" fill="none"><path d="M16 4c-5 0-9 3.8-9 9 0 6.5 9 15 9 15s9-8.5 9-15c0-5.2-4-9-9-9z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="16" cy="13" r="3.4" stroke="currentColor" stroke-width="1.7"/></svg>
+            </span>
+            <span class="project-tag">Local SEO</span>
+          </div>
+          <div class="project-meta">
+            <h3>King Cars — Local Search Growth</h3>
+            <p>Keyword and schema optimization that grew organic traffic for regional vehicle searches.</p>
+          </div>
+        </button>
+      </article>
+
+      <article class="project-card" data-category="seo" data-reveal="up" data-reveal-delay="160"
+        data-title="FT Autohaus — Map Pack Ranking" data-desc="Google Business Profile optimization and citation cleanup to boost local map visibility."
+        data-tag="Local SEO" style="--tint-a:var(--accent-b);--tint-b:var(--accent-a);">
+        <button class="card-open" aria-label="View FT Autohaus Map Pack Ranking project">
+          <div class="project-thumb">
+            <span class="thumb-icon">
+              <svg viewBox="0 0 32 32" fill="none"><path d="M16 4c-5 0-9 3.8-9 9 0 6.5 9 15 9 15s9-8.5 9-15c0-5.2-4-9-9-9z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="16" cy="13" r="3.4" stroke="currentColor" stroke-width="1.7"/></svg>
+            </span>
+            <span class="project-tag">Local SEO</span>
+          </div>
+          <div class="project-meta">
+            <h3>FT Autohaus — Map Pack Ranking</h3>
+            <p>Google Business Profile optimization and citation cleanup to boost local map visibility.</p>
+          </div>
+        </button>
+      </article>
+
+    </div>
+
+    <p class="grid-empty" id="gridEmpty" hidden>No projects in this category yet — check back soon.</p>
+  </div>
+</section>
+
+<!-- ===================== CLOSING CTA ===================== -->
+<section class="closing-cta" data-reveal="up">
+  <div class="container cta-inner">
+    <p class="section-eyebrow">Let's Build Something</p>
+    <h2>Like what you see?<br>Let's build your project next.</h2>
+    <a href="contact.html" class="btn btn-primary btn-lg">
+      <span>Start a Conversation</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+</section>
+</main>
+
+<!-- ===================== LIGHTBOX ===================== -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+  <div class="lightbox-panel" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close project view">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="lightbox-image" id="lightboxImage">
+      <span class="lightbox-icon" id="lightboxIcon"></span>
+    </div>
+    <div class="lightbox-body">
+      <span class="lightbox-tag" id="lightboxTag"></span>
+      <h3 id="lightboxTitle"></h3>
+      <p id="lightboxDesc"></p>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo"><span class="js-logo-initials">FR</span><span class="dot">.</span></a>
+      <p class="js-footer-tagline">Front-End Web Developer &amp; WordPress Specialist. Turning ideas into responsive websites that work.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="awards.html">Awards</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-social">
+      <h4>Let's Connect</h4>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon js-social-linkedin"><svg viewBox="0 0 24 24" fill="none"><path d="M6.94 8.5H4V20h2.94V8.5zM5.47 4a1.7 1.7 0 100 3.4 1.7 1.7 0 000-3.4zM20 13.4c0-3-1.6-4.4-3.75-4.4-1.73 0-2.5.95-2.94 1.62V8.5H10.4c.04.83 0 11.5 0 11.5h2.91v-6.42c0-.34.02-.69.13-.94.28-.69.9-1.4 1.96-1.4 1.38 0 1.93 1.05 1.93 2.59V20H20v-6.6z" fill="currentColor"/></svg></a>
+        <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon js-social-github"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2a10 10 0 00-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 015 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0012 2z" fill="currentColor"/></svg></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram" class="social-icon js-social-instagram"><svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg></a>
+        <a href="https://wa.me/923020644141" target="_blank" rel="noopener" aria-label="WhatsApp" class="social-icon js-social-whatsapp"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3a9 9 0 00-7.8 13.5L3 21l4.6-1.2A9 9 0 1012 3z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M8.3 8.6c.2-.5.4-.5.7-.5h.5c.2 0 .4 0 .5.4.2.5.6 1.6.6 1.7.1.1.1.3 0 .4-.1.2-.1.3-.3.4-.1.2-.3.3-.4.4-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.5 1.5.2.1.4.1.5-.1.1-.2.6-.7.8-.9.2-.2.3-.2.5-.1.2.1 1.4.6 1.6.8.2.1.3.2.4.3 0 .2 0 .9-.3 1.3-.4.5-1.3.9-1.8 1-.5.1-1 .1-3.3-.8-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9 0-1.4.7-2.1 1-2.4z" fill="currentColor"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span id="year"></span> Farhaj Rafique. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="assets/js/content-loader.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

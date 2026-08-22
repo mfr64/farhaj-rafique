@@ -1,0 +1,34 @@
+[
+    {
+        "id": "svc-1",
+        "icon": "wordpress",
+        "title": "WordPress Website Development",
+        "description": "Full design and development of responsive, user-friendly WordPress websites — including theme customization and page setup, built to be easy for you to manage afterward.",
+        "price": "150",
+        "unit": "website"
+    },
+    {
+        "id": "svc-2",
+        "icon": "shopify",
+        "title": "Shopify Store Setup",
+        "description": "Complete Shopify store creation, including product listings, payment integration, and theme customization — everything you need to start selling.",
+        "price": "200",
+        "unit": "store"
+    },
+    {
+        "id": "svc-3",
+        "icon": "seo",
+        "title": "Local SEO Optimization",
+        "description": "On-page and local SEO setup to help your website rank better and get discovered by the right audience in your area.",
+        "price": "80",
+        "unit": "project"
+    },
+    {
+        "id": "svc-4",
+        "icon": "customization",
+        "title": "Website Customization & Maintenance",
+        "description": "Ongoing updates, contact form integration, new service sections, and design tweaks to keep an existing website current and working well.",
+        "price": "50",
+        "unit": "task"
+    }
+]

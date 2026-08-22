@@ -1,0 +1,26 @@
+[
+  {
+    "id": "award-1",
+    "icon": "certificate",
+    "year": "2026",
+    "title": "Local SEO Certification",
+    "source": "Earned through a professional Local SEO course",
+    "why": "Recognizes hands-on skill in on-page and local search optimization \u2014 the same practices applied to every client project to help their sites get found."
+  },
+  {
+    "id": "award-2",
+    "icon": "trophy",
+    "year": "2026",
+    "title": "10+ Projects Delivered",
+    "source": "Recognized through consistent freelance client work across WordPress and Shopify",
+    "why": "Reflects a track record of shipping responsive, high-quality websites project after project, for clients across multiple industries."
+  },
+  {
+    "id": "award-3",
+    "icon": "graduation",
+    "year": "In Progress",
+    "title": "BS Computer Science Scholar",
+    "source": "Currently pursuing a Computer Science degree at The University of Lahore",
+    "why": "Combines formal computer science education with real-world freelance experience \u2014 building websites for real clients while studying the fundamentals behind them."
+  }
+]

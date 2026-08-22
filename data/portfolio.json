@@ -1,0 +1,110 @@
+[
+  {
+    "id": "proj-1",
+    "category": "wordpress",
+    "tag": "WordPress Website",
+    "title": "Guelph Carpet Cleaning",
+    "description": "Full WordPress rebuild with a fast quote-request flow for a local service business.",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "proj-2",
+    "category": "wordpress",
+    "tag": "WordPress Website",
+    "title": "FT Autohaus",
+    "description": "Inventory-driven dealer website with custom vehicle listing templates built on WordPress.",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "proj-3",
+    "category": "wordpress",
+    "tag": "WordPress Website",
+    "title": "ProficientDigitizing",
+    "description": "Corporate WordPress site with a custom quote-upload portal for embroidery digitizing orders.",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "proj-4",
+    "category": "shopify",
+    "tag": "Shopify Store",
+    "title": "King Cars",
+    "description": "Shopify storefront for an auto marketplace with filterable inventory and fast checkout.",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "proj-5",
+    "category": "shopify",
+    "tag": "Shopify Store",
+    "title": "Pink Slip Express",
+    "description": "Streamlined Shopify checkout and product pages built to reduce cart abandonment.",
+    "image": "",
+    "featured": true
+  },
+  {
+    "id": "proj-6",
+    "category": "shopify",
+    "tag": "Shopify Store",
+    "title": "DST Digitizing",
+    "description": "Custom Shopify product catalog for a digitizing services brand with tiered pricing options.",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "proj-7",
+    "category": "landing",
+    "tag": "Landing Page",
+    "title": "SaaS Product Launch Page",
+    "description": "High-conversion single page built to support a paid ad campaign for a software launch.",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "proj-8",
+    "category": "landing",
+    "tag": "Customization",
+    "title": "Real Estate Listing Microsite",
+    "description": "Custom single-property listing page with a gallery and inquiry form for a realtor client.",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "proj-9",
+    "category": "landing",
+    "tag": "Landing Page",
+    "title": "Event RSVP Microsite",
+    "description": "Lightweight event page with live RSVP counter and calendar integration, built for speed.",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "proj-10",
+    "category": "seo",
+    "tag": "Local SEO",
+    "title": "Guelph Carpet Cleaning \u2014 Local SEO",
+    "description": "On-page and technical SEO overhaul that moved the business into Google's local map pack.",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "proj-11",
+    "category": "seo",
+    "tag": "Local SEO",
+    "title": "King Cars \u2014 Local Search Growth",
+    "description": "Keyword and schema optimization that grew organic traffic for regional vehicle searches.",
+    "image": "",
+    "featured": false
+  },
+  {
+    "id": "proj-12",
+    "category": "seo",
+    "tag": "Local SEO",
+    "title": "FT Autohaus \u2014 Map Pack Ranking",
+    "description": "Google Business Profile optimization and citation cleanup to boost local map visibility.",
+    "image": "",
+    "featured": false
+  }
+]

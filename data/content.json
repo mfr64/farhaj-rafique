@@ -1,0 +1,154 @@
+{
+  "theme": "charcoal-orange",
+  "site": {
+    "brandInitials": "FR",
+    "footerTagline": "Front-End Web Developer & WordPress Specialist. Turning ideas into responsive websites that work.",
+    "profilePhoto": "uploads/farhaj-profile-photo.jpg",
+    "certImage": "uploads/local-seo-certificate.jpg"
+  },
+  "contact": {
+    "email": "farhajrafique64@gmail.com",
+    "phone": "+92-302-0644141",
+    "whatsapp": "923020644141",
+    "location": "Link Road, Lahore",
+    "linkedin": "https://www.linkedin.com/in/farhajrafique/",
+    "github": "https://github.com/mfr64",
+    "instagram": "https://www.instagram.com/farhajrafique/"
+  },
+  "home": {
+    "heroName": "Farhaj Rafique",
+    "heroTitle": "Front-End Web Developer & WordPress Specialist",
+    "heroTagline": "Turning ideas into responsive websites that work.",
+    "heroSub": "Currently pursuing a BS in Computer Science \u2014 3+ years building fast, clean, conversion-ready websites on WordPress and Shopify for clients who need results, not just design.",
+    "ctaText": "View My Work",
+    "stats": [
+      {
+        "number": "10",
+        "suffix": "+",
+        "label": "Websites Built"
+      },
+      {
+        "number": "8",
+        "suffix": "+",
+        "label": "WordPress & Shopify Projects Delivered"
+      },
+      {
+        "number": "3",
+        "suffix": "+",
+        "label": "Years of Experience"
+      },
+      {
+        "number": "5",
+        "suffix": "+",
+        "label": "Technical Skills Mastered"
+      }
+    ],
+    "testimonials": [
+      {
+        "quote": "Farhaj rebuilt our WordPress site from the ground up and it finally loads fast and looks professional. Communication was clear the entire time.",
+        "name": "Sarah M.",
+        "role": "Owner, Guelph Carpet Cleaning"
+      },
+      {
+        "quote": "Our Shopify store went from confusing to genuinely easy to shop on. Sales picked up within the first month after launch.",
+        "name": "David K.",
+        "role": "Founder, Pink Slip Express"
+      },
+      {
+        "quote": "Reliable, fast, and easy to work with. Farhaj understood exactly what we needed and delivered ahead of schedule.",
+        "name": "Amir H.",
+        "role": "Manager, FT Autohaus"
+      }
+    ],
+    "brands": [
+      "ProficientDigitizing",
+      "DST Digitizing",
+      "Pink Slip Express",
+      "Guelph Carpet Cleaning",
+      "King Cars",
+      "FT Autohaus"
+    ],
+    "ctaHeading": "Have a project in mind?\nLet's turn it into a website that works."
+  },
+  "about": {
+    "heroTitle": "The story behind the code",
+    "heroSub": "From a curious Computer Science student to a freelance developer trusted by real clients \u2014 here's how it happened.",
+    "lede": "I started learning web development as part of my BS in Computer Science \u2014 HTML, CSS, and JavaScript, out of pure curiosity for how websites actually came together.",
+    "paragraph1": "That curiosity didn't stay a class assignment for long. Building and customizing websites for real clients became something I genuinely looked forward to, and over time it grew into a freelance career I've run alongside my studies ever since.",
+    "paragraph2": "What makes me different is that I don't just build a website. I focus on responsive design, clean user experience, and local SEO \u2014 so my clients' sites don't just look good, they actually perform and get found.",
+    "missionQuote": "My mission is to help businesses and individuals turn their ideas into professional, functional websites that grow their online presence.",
+    "statChipNumber": "3+",
+    "statChipLabel": "Years turning ideas into websites",
+    "timeline": [
+      {
+        "tag": "Year 1",
+        "title": "Started BS Computer Science",
+        "desc": "Enrolled in my Computer Science degree and got my first real exposure to how software and the web are built."
+      },
+      {
+        "tag": "Foundations",
+        "title": "Learned HTML, CSS & JavaScript",
+        "desc": "Taught myself the fundamentals out of curiosity, then kept going far past what any class required."
+      },
+      {
+        "tag": "First Client",
+        "title": "First freelance WordPress project",
+        "desc": "Took on my first paid WordPress build and realized this was more than a hobby \u2014 it was a career."
+      },
+      {
+        "tag": "Growth",
+        "title": "Expanded into Shopify development",
+        "desc": "Branched out from WordPress into Shopify to help clients launch and run online stores."
+      },
+      {
+        "tag": "Today",
+        "title": "Built 10+ websites across multiple industries",
+        "desc": "From local services to auto dealers to e-commerce brands \u2014 every project sharpened the craft further."
+      }
+    ],
+    "skills": [
+      {
+        "name": "WordPress Development",
+        "percent": 95
+      },
+      {
+        "name": "Shopify Development",
+        "percent": 85
+      },
+      {
+        "name": "Local SEO",
+        "percent": 80
+      },
+      {
+        "name": "Website Customization",
+        "percent": 90
+      },
+      {
+        "name": "Basic E-commerce Setup",
+        "percent": 75
+      }
+    ],
+    "certLabel": "Local SEO Certification",
+    "certTitle": "Certified in Local Search Optimization",
+    "certDesc": "Verified training in local search ranking factors, Google Business Profile optimization, citation building, and on-page SEO \u2014 the same practices applied to every client project.",
+    "certNote": "Issued by Skills Heaven, Sharjah, UAE \u2014 License No. 2540874.01"
+  },
+  "servicesPage": {
+    "heroTitle": "Clear services, honest pricing",
+    "heroSub": "Whether you need a brand new website, an online store, better search rankings, or ongoing updates \u2014 here's exactly what I offer and what it starts at.",
+    "note": "Every project is scoped individually \u2014 final pricing depends on your specific requirements. Reach out for a free, no-obligation quote."
+  },
+  "portfolioPage": {
+    "heroTitle": "Work I've shipped for real clients",
+    "heroSub": "A look at WordPress builds, Shopify stores, custom landing pages, and local SEO work. Every thumbnail below is a placeholder \u2014 real project screenshots go live here through the Admin Panel."
+  },
+  "contactPage": {
+    "heroTitle": "Let's start your project",
+    "heroSub": "Based in Lahore, working with clients everywhere. Reach out and let's talk about what you're building.",
+    "formInvite": "Have a website, Shopify store, or local SEO project in mind? Tell me about it below and I'll get back to you soon."
+  },
+  "awardsPage": {
+    "heroTitle": "Milestones worth mentioning",
+    "heroSub": "A few markers of the path so far \u2014 from certification to client delivery to the degree still in progress."
+  }
+}
